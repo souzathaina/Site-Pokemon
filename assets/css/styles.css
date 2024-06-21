@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #3572EF;
+    color: #000000;
+}
+.header img {
+    align-content: start;
+    width:  250px;
+    height: 100px;   
+}
+ header {
+    background-color:#FFBF00;
+    padding: 5em;
+    text-align: center;
+    border-bottom: 2px solid #f8eb2c;
+
+    
+}
+
+.header h1{
+    font-size: 2rem;
+    color: #333;
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.pokemon-card {
+    background-color: #b1c5e2cc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 350px;
+    transition: transform 0.2s;
+}
+
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.pokemon-card a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.pokemon-card span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+.pokemon-detail {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: space-between;
+}
+
+.pokemon-detail img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.pokemon-info {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.pokemon-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.pokemon-info p {
+    font-size: 1.2em;
+    color: #000000;
+    margin: 5px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.back-button {
+    display: block;
+    margin: 20px ;
+    padding: 10px 20px;
+    background-color:#ddd;
+    color: blue;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ffcc00;
+}
+
+
